@@ -138,7 +138,7 @@ You will see the POST /api/subscriptions endpoint.
 
 Click on "Try it out" and enter a JSON object in the request body to subscribe.
 
-Example JSON request:
+Example of JSON request:
 
 {
   "email": "your.name@example.com",
