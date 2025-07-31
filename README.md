@@ -1,22 +1,22 @@
 <div align="center">
-<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/danotoriousflaco101/skateFeed/main/assets/skatefeed-logo.png" alt="SkateFeed Logo" width="200"/>
+<img src="https://img.shields.io/badge/RSS-Feed-orange?style=for-the-badge&logo=rss&logoColor=white" alt="SkateFeed Logo" width="200"/>
 <h1>SkateFeed</h1>
 <p>
 <strong>Your personal skateboarding news aggregator.</strong>
-</p>
-<p>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Java-21-blue.svg" alt="Java 21">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Spring%2520Boot-3.x-brightgreen.svg" alt="Spring Boot 3.x">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
 </p>
 </div>
 
 SkateFeed is a backend application built with Java and Spring Boot that acts as an intelligent news aggregator for the skateboarding world. The service monitors RSS feeds from industry websites, filters news based on users' preferred keywords, and sends email notifications.
 
 This project was developed to demonstrate the capabilities of Spring Integration in orchestrating complex data flows in an elegant and decoupled way.
+(but also to have myself a newsletter with filtered articles of skateboarders i love to follow without having to surf websites many times per week!)
+
 
 🚀 Key Features
+---------------
+
 REST API for Subscriptions: Exposes an endpoint to allow users to subscribe to the service, specifying their email address and a list of keywords of interest (e.g., "baker skateboards", "tiago lemos").
+
 
 Periodic RSS Feed Reading: At regular (configurable) intervals, the application checks RSS feeds from skate sites (currently The Berrics) for new stories.
 
@@ -28,30 +28,39 @@ HTML Email Sending: Users receive well-formatted HTML emails with the details of
 
 API Documentation with Swagger: The API is self-documented and testable through the Swagger UI interface.
 
-🛠️ Tech Stack
-Language: Java 21
 
-Framework: Spring Boot 3.x
 
-Flow Engine: Spring Integration
+🛠️ Tools & Technologies
+-----------------------
 
-Database: Spring Data JPA (Hibernate)
 
-Development: H2 In-Memory Database
 
-Production: PostgreSQL
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java"></a>
+<a href="#"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=fff" alt="Spring Boot"></a>
+<a href="#"><img src="https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=fff" alt="Hibernate"></a>
+<a href="#"><img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="Postgres"></a>
+<a href="#"><img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+<a href="#"><img src="https://img.shields.io/badge/Swagger-85EA2D%3Flogo%3Dswagger%26logoColor%3D000" alt="Swagger"></a>
+<a href="#"><img src="https://img.shields.io/badge/OpenAPI-6BA539?logo=openapiinitiative&logoColor=white" alt="OpenAPI"></a>
+<a href="#"><img src="https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white" alt="Insomnia"></a>
+<a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail"></a>
+</p>
 
-Build Tool: Maven
 
-API Docs: Springdoc OpenAPI (Swagger UI)
+
 
 🏁 How to Get Started
-Prerequisites
+---------------------
+
+Prerequisites:
+
 JDK 21 or higher
 
 Apache Maven
 
 A Gmail account with an App Password for sending emails.
+
 
 Configuration
 Clone the repository:
@@ -75,10 +84,19 @@ You can run the application using the Maven wrapper provided by Spring Boot:
 
 The application will be running at http://localhost:8080.
 
+
 ⚙️ Using the API
+----------------
+
 Once the application is running, you can start interacting with the API to subscribe to the service.
 
-Swagger UI
+
+</br>
+<p>
+<strong>SWAGGER UI</strong>
+</p>
+</br>
+
 The easiest way to test the API is through the Swagger UI interface.
 
 Open your browser and go to: http://localhost:8080/swagger-ui.html
@@ -97,14 +115,20 @@ Example JSON request:
   ]
 }
 
-H2 Console
-For development, you can access a web console to inspect the in-memory database.
 
-Make sure these properties are in your application.properties:
+</br>
+<p>
+<strong>H2 CONSOLE</strong>
+</p>
+</br>
+
+For development, you can access a web console to inspect the in-memory database. 
+
+
+1. Make sure these properties are in your application.properties:
 
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 
-Go to: http://localhost:8080/h2-console
+2. Go!
 
-Copy the JDBC URL from the application startup logs and paste it into the corresponding field to connect.
