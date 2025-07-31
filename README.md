@@ -86,7 +86,7 @@ API Documentation with Swagger: The API is self-documented and testable through 
 🏁 How to Get Started
 ---------------------
 
-Prerequisites:
+PREREQUISITES:
 
 JDK 21 or higher
 
@@ -95,14 +95,22 @@ Apache Maven
 A Gmail account with an App Password for sending emails.
 
 
-Configuration
+CONFIGURATION:
+
+
 Clone the repository:
 
 git clone git@github.com:danotoriousflaco101/skateFeed.git
+
 cd skateFeed
 
+
 Configure email credentials:
-Open the src/main/resources/application.properties file. You need to edit the email sending section with your actual data.
+
+
+Open the src/main/resources/application.properties file. 
+
+You need to edit the email sending section with your actual data.
 
 # Enter your full Gmail address here
 spring.mail.username=your-email@gmail.com
