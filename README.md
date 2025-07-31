@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://www.google.com/url?sa=E&source=gmail&q=https://raw.githubusercontent.com/danotoriousflaco101/skateFeed/main/assets/skatefeed-logo.png" alt="SkateFeed Logo" width="200"/>
+<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/danotoriousflaco101/skateFeed/main/assets/skatefeed-logo.png" alt="SkateFeed Logo" width="200"/>
 <h1>SkateFeed</h1>
 <p>
 <strong>Your personal skateboarding news aggregator.</strong>
