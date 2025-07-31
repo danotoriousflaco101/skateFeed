@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/RSS-Feed-orange?style=for-the-badge&logo=rss&logoColor=white" alt="SkateFeed Logo" width="200"/>
 <h1>SkateFeed</h1>
 <p>
-<strong>Your personal skateboarding news aggregator.</strong>
+<strong>Skateboarding news aggregator.</strong>
 </p>
 </div>
 
