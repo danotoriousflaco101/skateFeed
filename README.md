@@ -169,7 +169,9 @@ For development, you can access a web console to inspect the in-memory database.
 1. Make sure these properties are in your application.properties:
 
 spring.h2.console.enabled=true
+
 spring.h2.console.path=/h2-console
+
 
 2. Go!
 
