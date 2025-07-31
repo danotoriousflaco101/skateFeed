@@ -30,23 +30,56 @@ API Documentation with Swagger: The API is self-documented and testable through 
 
 
 
+
 🛠️ Tools & Technologies
 -----------------------
 
 
 
 <p align="center">
+<a href="#"><img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0" alt="macOS"></a>
+<a href="#"><img src="https://img.shields.io/badge/Spotify-1ED760?logo=spotify&logoColor=white" alt="Spotify"></a>  
+<a href="#"><img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white" alt="INTJ IDEA"></a> 
+<a href="#"><img src="https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white" alt="Insomnia"></a>  
+<a href="#"><img src="https://img.shields.io/badge/Opera-FF1B2D?logo=Opera&logoColor=white" alt="Opera"></a>
+<a href="#"><img src="https://img.shields.io/badge/DuckDuckGo-FF5722?logo=duckduckgo&logoColor=white" alt="DuckDuckGo"></a> 
+<a href="#"><img src="https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=white" alt="Google"></a>  
+<a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail"></a>  
+<a href="#"><img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff" alt="Git"></a> 
+<a href="#"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white" alt="GitHub"></a> 
 <a href="#"><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java"></a>
 <a href="#"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=fff" alt="Spring Boot"></a>
-<a href="#"><img src="https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=fff" alt="Hibernate"></a>
-<a href="#"><img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="Postgres"></a>
-<a href="#"><img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
 <a href="#"><img src="https://img.shields.io/badge/Swagger-85EA2D%3Flogo%3Dswagger%26logoColor%3D000" alt="Swagger"></a>
 <a href="#"><img src="https://img.shields.io/badge/OpenAPI-6BA539?logo=openapiinitiative&logoColor=white" alt="OpenAPI"></a>
-<a href="#"><img src="https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white" alt="Insomnia"></a>
-<a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail"></a>
+<a href="#"><img src="https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=fff" alt="Hibernate"></a>
+<a href="#"><img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="Postgres"></a>
 </p>
 
+
+
+📌 Utilized Dependencies
+---------------------
+
+
+<strong>SPRING WEB:</strong> Facilitates the construction of the RESTful Application Programming Interface, which encompasses the requisite endpoint for subscription functionalities.
+
+<strong>SPRING INTEGRATION:</strong> Constitutes the principal orchestration framework for the application. Its function is to govern the complete automated data processing workflow, which includes the ingestion of syndicated feeds, the application of filtering criteria, data transformation, and the subsequent dispatch of messages.
+
+<strong>SPRING INTEGRATION FEED:</strong> A specialized module within the Spring Integration ecosystem, engineered for the specific purpose of reading and parsing RSS (Really Simple Syndication) and Atom syndicated feeds.
+
+<strong>SPRING INTEGRATION MAIL:</strong> A distinct module designated for the programmatic composition and transmission of electronic mail correspondence.
+
+<strong>SPRING BOOT STARTER MAIL:</strong> Furnishes the automatic configuration mechanisms for the email dispatch service, deriving its operational parameters from the credentials specified within the application.properties configuration file.
+
+<strong>SPRING DATA JPA:</strong> The designated persistence layer abstraction that enables interaction with the underlying database system. It facilitates data manipulation operations—such as creation, retrieval, and modification of user and keyword entities—through the mapping of standard Java objects.
+
+<strong>POSTRESQL DRIVER:</strong> The software driver that provides the necessary interface for establishing communication and interaction between the application and a PostgreSQL relational database management system.
+
+<strong>H2 DATABASE</strong> A lightweight, in-memory database engine, deemed suitable for rapid application development and testing protocols, as it obviates the need for external installation and configuration.
+
+<strong>LOMBOK:</strong> A utility library employed to mitigate the verbosity of boilerplate code within the data model classes through compile-time annotation processing, thereby reducing the manual implementation of accessor and mutator methods.
+
+<strong>SPRINGDOC OPENAPI:</strong> (Swagger UI): A component responsible for the automatic generation of interactive, web-based documentation for the RESTful API, conforming to the OpenAPI Specification. This facilitates streamlined API inspection and functional testing.
 
 
 
@@ -93,7 +126,7 @@ Once the application is running, you can start interacting with the API to subsc
 
 </br>
 <p>
-<strong>SWAGGER UI</strong>
+<strong>SWAGGER UI 🤙</strong>
 </p>
 </br>
 
@@ -118,7 +151,7 @@ Example JSON request:
 
 </br>
 <p>
-<strong>H2 CONSOLE</strong>
+<strong>H2 CONSOLE 💾</strong>
 </p>
 </br>
 
