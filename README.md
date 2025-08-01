@@ -9,7 +9,11 @@
 SkateFeed is a backend application built with Java and Spring Boot that acts as an intelligent news aggregator for the skateboarding world. The service monitors RSS feeds from industry websites, filters news based on users' preferred keywords, and sends email notifications.
 
 This project was developed to demonstrate the capabilities of Spring Integration in orchestrating complex data flows in an elegant and decoupled way.
-(but also to have myself a newsletter with filtered articles of skateboarders i love to follow without having to surf websites many times per week!)
+
+<strong>(but also to have myself a newsletter with filtered articles of skateboarders i love to follow without having to surf websites all week!)</strong>
+
+
+
 
 
 🚀 Key Features
